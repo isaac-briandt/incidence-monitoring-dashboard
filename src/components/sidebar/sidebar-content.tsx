@@ -1,4 +1,3 @@
-import { CorenettLogo } from "@/assets/assets";
 import {
   InfoIcon,
   ServerIcon,
@@ -7,6 +6,7 @@ import {
   UserCog,
 } from "lucide-react";
 import type { SidebarProps, AppSidebarTab } from "./sidebar";
+import { CorenettLogo } from "@/assets";
 
 export default function SidebarContent({
   activeTab,

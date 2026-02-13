@@ -4,7 +4,7 @@ import type { Incident } from "../../types/incident";
 import type { IncidentStatus } from "../../constants";
 import { ActivityTimeline } from "../activity/ActivityLine";
 import { CommentBox } from "../comment/CommentBox";
-import { detailsImg } from "@/assets/assets";
+import { detailsImg } from "@/assets";
 
 interface Props {
   incident?: Incident;
